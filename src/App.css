@@ -23,7 +23,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header a {
+  background-color: rgba(74, 92, 229, 1);
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.7rem;
 
+}
 .App-link {
   color: #61dafb;
 }

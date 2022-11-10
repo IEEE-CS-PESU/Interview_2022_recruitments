@@ -4,14 +4,13 @@ import './App.css';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
 } from "react-router-dom";
 import Test from './components/Test';
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <div>
+      element: <div className='App-header'>
         <p> Hello World </p>
 
         <a href="/test" style={{ color: "white", textDecoration: "none" }}>
@@ -26,7 +25,7 @@ function App() {
   ]);
   return (
 
-    <div className="App">
+    <div className="App ">
       <RouterProvider router={router} />
     </div>
   );
